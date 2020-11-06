@@ -43,7 +43,7 @@ pod 'SNShadowSDK'
 ### Shadow in View
 Use `SNShadowView` class as UIView to make this View has shadow.
 
-- Use Storyboard
+#### Use Storyboard
 
 ![Image of Storyboard](https://i.ibb.co/Brp34xt/Screenshot-2020-11-06-at-5-53-34-PM.png)
 
@@ -58,7 +58,7 @@ Use `SNShadowView` class as UIView to make this View has shadow.
 ![Image of Storyboard](https://i.ibb.co/NYYcst8/Screenshot-2020-11-06-at-6-16-11-PM.png)
 
 
-- Programmatically
+#### Programmatically
 
 ```ruby
 import SNShadowSDK
