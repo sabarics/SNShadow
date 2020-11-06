@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SNShadowSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Helper Framework to generate wonderful shadow in Swift iOS."
   spec.description  = "Helper Framework to generate wonderful shadow in Swift iOS. Simple and 3D shadow for UIView in Swift iOS"
   spec.homepage     = "https://github.com/sabarics/SNShadow"

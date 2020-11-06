@@ -242,7 +242,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="YIS-dk-1Nm" firstAttribute="leading" secondItem="1vd-a9-bJC" secondAttribute="leading" constant="8" id="1ZZ-c4-fFa"/>
                                     <constraint firstItem="7Pr-cJ-3X8" firstAttribute="top" secondItem="7AS-zh-xN0" secondAttribute="bottom" constant="16" id="LRf-nQ-cKn"/>
@@ -274,7 +274,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="NDU-SY-cre" firstAttribute="top" secondItem="jha-4G-IoS" secondAttribute="top" constant="10" id="J68-hF-agO"/>
                                     <constraint firstAttribute="bottom" secondItem="NDU-SY-cre" secondAttribute="bottom" constant="10" id="Tn7-e9-ray"/>

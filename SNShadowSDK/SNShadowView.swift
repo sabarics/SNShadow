@@ -8,8 +8,7 @@
 import Foundation
 import UIKit
 
-@IBDesignable
-public class SNShadowView : UIView
+@IBDesignable public class SNShadowView : UIView
 {
     
     /// Create container View
@@ -21,25 +20,25 @@ public class SNShadowView : UIView
     }()
     
     /// Background Color for superView
-    @IBInspectable var bgColor: UIColor? = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
+    @IBInspectable public var bgColor: UIColor? = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
     /// Corner Radius for superView
-    @IBInspectable var cornerRadius: CGFloat = 10
+    @IBInspectable public var cornerRadius: CGFloat = 10
     var shadowOpacity: Float = 1
     var shadowRadius: CGFloat = 1
     /*
      Apply Shadow to Left and Bottomm of the View.
      */
-    @IBInspectable var shadowWidth1: Int = 3
-    @IBInspectable var shadowHeight1: Int = 3
-    @IBInspectable var shadowColor1: UIColor? = UIColor.lightGray
+    @IBInspectable public var shadowWidth1: Int = 3
+    @IBInspectable public var shadowHeight1: Int = 3
+    @IBInspectable public var shadowColor1: UIColor? = UIColor.lightGray
     /*
      Apply Shadow to Right and Top of the View.
      */
-    @IBInspectable var shadowWidth2: Int = -3
-    @IBInspectable var shadowHeight2: Int = -3
-    @IBInspectable var shadowColor2: UIColor? = UIColor.white
+    @IBInspectable public var shadowWidth2: Int = -3
+    @IBInspectable public var shadowHeight2: Int = -3
+    @IBInspectable public var shadowColor2: UIColor? = UIColor.white
     
-    @IBInspectable var innerShadow:Bool = false{
+    @IBInspectable public var innerShadow:Bool = false{
         didSet{
             if innerShadow{
                 setInnerShadow()
