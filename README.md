@@ -1,8 +1,8 @@
 ![Version](https://img.shields.io/cocoapods/v/SNShadowSDK.svg?style=flat)
 
 
-# SNShadow
-Creating a UIView with shadows , cornered radius and 3D effect is a lot more challenging than one may think. Using this helper class you can simply create a view with corner radius, shadows with 3D in no time at all.
+# SNShadow(Neomorphism)
+Creating a UIView with shadows , cornered radius and 3D effect(Neomorphism) is a lot more challenging than one may think. Using this helper class you can simply create a view with corner radius, shadows with 3D in no time at all.
 
 ## Screenshots
 
