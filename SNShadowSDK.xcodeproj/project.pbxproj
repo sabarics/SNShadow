@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		74C5A4E9255541F4002D6F92 /* SNShadowSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C5A4E7255541F4002D6F92 /* SNShadowSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74C5A4F125554231002D6F92 /* SNShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5A4F025554231002D6F92 /* SNShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74C5A4E4255541F4002D6F92 /* SNShadowSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNShadowSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C5A4E7255541F4002D6F92 /* SNShadowSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNShadowSDK.h; sourceTree = "<group>"; };
 		74C5A4E8255541F4002D6F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C5A4F025554231002D6F92 /* SNShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				74C5A4E7255541F4002D6F92 /* SNShadowSDK.h */,
+				74C5A4F025554231002D6F92 /* SNShadowView.swift */,
 				74C5A4E8255541F4002D6F92 /* Info.plist */,
 			);
 			path = SNShadowSDK;
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					74C5A4E3255541F4002D6F92 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C5A4F125554231002D6F92 /* SNShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		74C5A4ED255541F4002D6F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = HKFNV2JRF8;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sabari.SNShadowSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		74C5A4EE255541F4002D6F92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = HKFNV2JRF8;
