@@ -1,0 +1,6 @@
+framework module SNShadowSDK {
+  umbrella header "SNShadowSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

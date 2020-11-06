@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 @IBDesignable
-
 public class SNShadowView : UIView
 {
     
@@ -17,11 +16,12 @@ public class SNShadowView : UIView
     lazy var containView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
         return view
     }()
     
     /// Background Color for superView
-    @IBInspectable var bgColor: UIColor? = UIColor.white
+    @IBInspectable var bgColor: UIColor? = UIColor(red: 235/255, green: 235/255, blue: 235/255, alpha: 1)
     /// Corner Radius for superView
     @IBInspectable var cornerRadius: CGFloat = 10
     var shadowOpacity: Float = 1
@@ -29,15 +29,23 @@ public class SNShadowView : UIView
     /*
      Apply Shadow to Left and Bottomm of the View.
      */
-    var shadowWidth1: Int = 4
-    var shadowHeight1: Int = 4
-    var shadowColor1: UIColor? = UIColor.lightGray
+    @IBInspectable var shadowWidth1: Int = 3
+    @IBInspectable var shadowHeight1: Int = 3
+    @IBInspectable var shadowColor1: UIColor? = UIColor.lightGray
     /*
      Apply Shadow to Right and Top of the View.
      */
-    var shadowWidth2: Int = -4
-    var shadowHeight2: Int = -4
-    var shadowColor2: UIColor? = UIColor.white
+    @IBInspectable var shadowWidth2: Int = -3
+    @IBInspectable var shadowHeight2: Int = -3
+    @IBInspectable var shadowColor2: UIColor? = UIColor.white
+    
+    @IBInspectable var innerShadow:Bool = false{
+        didSet{
+            if innerShadow{
+                setInnerShadow()
+            }
+        }
+    }
     
     public override func layoutSubviews() {
         
