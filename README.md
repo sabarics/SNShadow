@@ -2,7 +2,7 @@
 
 
 # SNShadow(Neomorphism)
-Creating a UIView with shadows , cornered radius and 3D effect(Neomorphism) is a lot more challenging than one may think. Using this helper class you can simply create a view with corner radius, shadows with 3D in no time at all.
+SNShadow with Neumorphism style design. Creating a UIView with shadows , cornered radius and 3D effect(Neomorphism) is a lot more challenging than one may think. Using this helper class you can simply create a view with corner radius, shadows with 3D in no time at all.
 
 ## Screenshots
 
